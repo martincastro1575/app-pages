@@ -1,6 +1,6 @@
 from django.test import SimpleTestCase
 
-# Create your tests here.
+#Creando clases de prueba para probar conexion de paginas
 class SimpleTests(SimpleTestCase):
     def test_home_page_status_code(self):
         response = self.client.get('/')
